@@ -45,10 +45,10 @@ networks:
 
 echo &quot;
 PORT=8080
-UPDATE=0.01
+UPDATE=0.1
 MIN_DATA=true
 START_GAME_PLAYER_COUNT=3
-AI_COUNT=6
+AI_COUNT=5
 COUNTDOWN=30
 &quot; &gt; .env
 
