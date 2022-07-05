@@ -4,7 +4,7 @@ services:
   keycloak:
     container_name: keycloak
     image: jboss/keycloak:latest
-    # restart: always
+    restart: always
 
     environment:
       PROXY_ADDRESS_FORWARDING: 'true'

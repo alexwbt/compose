@@ -12,7 +12,7 @@ services:
       - /bin/docker:/usr/bin/docker
       - /usr/local/bin/docker-compose:/usr/local/bin/docker-compose
 
-    # restart: always
+    restart: always
     privileged: true
     user: root
 
